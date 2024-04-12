@@ -1,0 +1,27 @@
+{
+  "ignition": {
+    "config": {
+      "replace": {
+        "source": null,
+        "verification": {}
+      }
+    },
+    "security": {
+      "tls": {}
+    },
+    "timeouts": {},
+    "version": "3.0.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOk4wCBx0Pu1X2E0bv8tepDOdczJjcZKl3G0xupEilZx"
+        ]
+      }
+    ]
+  },
+  "storage": {},
+  "systemd": {}
+}
